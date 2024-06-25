@@ -6,6 +6,7 @@ body {
   font-family: "Inter";
   font-style: normal;
 }
+
 .top-header {
   background-color: white;
   position: sticky;
@@ -101,8 +102,8 @@ body {
 }
 .nav-pills .nav-link.active-tag,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #660000;
+  color: #000000;
+  background-color: rgb(201, 181, 67);
   border-radius: 0;
 }
 .nav-pills .nav-link {
