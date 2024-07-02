@@ -3,18 +3,33 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nina Carducci - photographe</title>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200",
+          "addressCountry": "France"
+        },
+        "telephone": "05 56 67 78 89",
+        "openingHours": "Mo-Fr 10:00-19:00"
+      }
+    </script>
     <meta
       name="description"
       content="Nina Carducci, photographe spécialisée dans les événements tel que les mariages ou les concerts, intervient également en entreprise et effectue aussi des portraits"
     />
-    <!-- Schema.org meta for Google+ -->
     <meta itemprop="name" content="Nina Carducci - photographe" />
     <meta
       itemprop="description"
       content="Nina Carducci, photographe spécialisée dans les événements tel que les mariages ou les concerts, intervient également en entreprise et effectue aussi des portraits"
     />
     <meta itemprop="image" content="https://vmarelle.github.io/OC-P4/" />
-    <!-- Twitter summary card  -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="" />
     <meta name="twitter:creator" content="" />
@@ -24,7 +39,6 @@
       content="Nina Carducci, photographe spécialisée dans les événements tel que les mariages ou les concerts, intervient également en entreprise et effectue aussi des portraits"
     />
     <meta name="twitter:image" content="" />
-    <!-- Open Graph meta (Facebook, Linkedin) -->
     <meta property="og:title" content="Nina Carducci - photographe" />
     <meta property="og:type" content="website" />
     <meta
@@ -46,7 +60,7 @@
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
-    <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -56,27 +70,6 @@
     <script src="./assets/scripts.js"></script>
   </head>
   <body>
-    <div
-      itemscope
-      itemtype="http://schema.org/LocalBusiness"
-      style="display: none"
-    >
-      <span itemprop="name">Nina Carducci</span>
-      <div
-        itemprop="address"
-        itemscope
-        itemtype="http://schema.org/PostalAddress"
-      >
-        <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
-        <span itemprop="addressLocality">Bordeaux</span>
-        <span itemprop="addressRegion">Nouvelle-Aquitaine</span>
-        <span itemprop="postalCode">33200</span>
-        <span itemprop="addressCountry">France</span>
-      </div>
-      <span itemprop="telephone">05 56 67 78 89</span>
-      <span itemprop="openingHours">Mo-Fr 10:00-19:00</span>
-    </div>
-
     <div class="top-header">
       <h1 class="name">Nina Carducci</h1>
       <nav class="nav">
@@ -253,12 +246,12 @@
       <div class="quote">
         <figure>
           <blockquote>
-            <h1 class="quote__text">
+            <h2 class="quote__text">
               Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
               qu’un fait est traduit en photo, il cesse d’être un fait pour
               devenir une opinion. L’inexactitude n’existe pas en photographie.
               Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
-            </h1>
+            </h2>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
@@ -277,7 +270,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>350€/demi journée</h4>
+            <p>350€/demi journée</p>
             <span>Matériel, déplacement inclus</span>
           </div>
         </div>
@@ -290,7 +283,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>50€/photo</h4>
+            <p>50€/photo</p>
             <span>2 AR par photo</span>
           </div>
         </div>
@@ -303,7 +296,7 @@
             </p>
           </div>
           <div class="service__price">
-            <h4>400€ album A4</h4>
+            <p>400€ album A4</p>
             <span>30 pages recto/verso</span>
           </div>
         </div>
@@ -312,11 +305,11 @@
     <div class="quote">
       <figure>
         <blockquote>
-          <h1 class="quote__text">
+          <h2 class="quote__text">
             De manière inconsciente, je crois, je guette un regard, une
             expression, des traits ou une nostalgie capable de résumer ou plus
             exactement de révéler une vie
-          </h1>
+          </h2>
         </blockquote>
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
